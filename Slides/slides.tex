@@ -6,8 +6,11 @@
 \usepackage{color}
 \usepackage{xcolor}
 \usepackage{amsfonts}
+\usepackage{amsmath}
+
 \lstset{
     language=C,
+    basicstyle=\tiny,
     frame=tb,
     %numbers=left,
     %stepnumber=1,
@@ -20,12 +23,11 @@
     captionpos=b,
     breaklines=true,
     breakatwhitespace=true,
-    keywordstyle=\color{blue},
+    keywordstyle=\color{violet},
     commentstyle=\color{magenta}\itshape,
-    emphstyle=\color{red},
-    stringstyle=\color{purple},
-    identifierstyle=\color{cyan}
-    %title=\lstname
+    emphstyle=\color{cyan},
+    stringstyle=\color{red},
+    identifierstyle=\color{blue}
 }
 
 \usetheme{Boadilla}
@@ -105,6 +107,138 @@
     \begin{figure}
         \lstinputlisting{../Code/HelloWorld/hello.c}
     \end{figure}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Notes on syntax}
+    \begin{itemize}
+        \item Whitespace ignored
+        \item Semicolons at ends of lines
+        \item Braces
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Notes on syntax}
+    \begin{columns}
+        \column{0.5\textwidth}
+        \begin{itemize}
+            \item Whitespace ignored
+            \item Semicolons at ends of statements
+            \item Braces
+            \item Identifiers may not override keywords
+        \end{itemize}
+        \column{0.5\textwidth}
+        \begin{table}
+            \texttt{%
+            \resizebox{\linewidth}{!}{%
+            \begin{tabular}{| c | c | c | c |}
+                \hline
+                auto        & extern    & short     & while \\
+                \hline
+                break       & float     & signed    & \_Alignas \\
+                \hline
+                case        & for       & sizeof    & \_Alignof \\
+                \hline
+                char        & goto      & static    & \_Atomic \\
+                \hline
+                const       & if        & struct    & \_Bool \\
+                \hline
+                continue    & inline    & switch    & \_Complex \\
+                \hline
+                default     & int       & typedef   & \_Generic \\
+                \hline
+                do          & long      & union     & \_Imaginary \\
+                \hline
+                double      & register  & unsigned  & \_Noreturn  \\
+                \hline
+                else        & restrict  & void      & \_Static\_assert  \\
+                \hline
+                enum        & return    & volatile  & \_Thread\_local  \\
+                \hline
+            \end{tabular}}}
+            \caption{Keywords in C11}
+        \end{table}
+    \end{columns}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Variables}
+    \begin{figure}
+        \lstinputlisting{../Code/BasicVariables/variables.c}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Conditional execution}
+    \begin{figure}
+        \lstinputlisting{../Code/Conditionals/if.c}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+    \frametitle{While loops}
+    \begin{figure}
+        \lstinputlisting{../Code/While/while.c}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+    \frametitle{For loops}
+    \begin{figure}
+        \lstinputlisting{../Code/For/for.c}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Functions}
+    \begin{figure}
+        \lstinputlisting{../Code/Functions/functions.c}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Pointers}
+    \begin{figure}
+        \lstinputlisting{../Code/Pointers/pointers.c}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Arrays}
+    \begin{figure}
+        \lstinputlisting{../Code/Arrays/arrays.c}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Passing Arrays to Functions}
+    \begin{figure}
+        \lstinputlisting{../Code/PassingArrays/passingArrays.c}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Strings}
+    \begin{figure}
+        \lstinputlisting{../Code/Strings/strings.c}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Structs}
+    \begin{figure}
+        \lstinputlisting{../Code/Structs/structs.c}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Memory Management}
+    \begin{itemize}[<+->]
+        \item Can also be done dynamically
+        \item No garbage collection
+        \item See example code in \texttt{Code/Memory/memory.c}
+    \end{itemize}
 \end{frame}
 
 \end{document}
