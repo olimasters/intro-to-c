@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.7.31)  12 AUG 2018 21:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.7.31)  12 AUG 2018 21:21
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1065,11 +1065,11 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 \tf@snm=\write8
 \openout8 = `slides.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 270.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 270.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 271.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 271.
  (./slides.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 270.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 270.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 271.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 271.
 Package rerunfilecheck Info: File `slides.out' has not changed.
 (rerunfilecheck)             Checksum: FD3D659BEA48E75C6E7C31C05053DA37;111.
 
@@ -1098,10 +1098,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist
 type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/symbols/msam7.pfb>
-Output written on slides.pdf (35 pages, 208731 bytes).
+Output written on slides.pdf (35 pages, 208767 bytes).
 PDF statistics:
- 1024 PDF objects out of 1200 (max. 8388607)
- 958 compressed objects within 10 object streams
+ 1025 PDF objects out of 1200 (max. 8388607)
+ 959 compressed objects within 10 object streams
  75 named destinations out of 1000 (max. 500000)
  75 words of extra memory for PDF output out of 10000 (max. 10000000)
 
