@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.7.31)  12 AUG 2018 21:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.7.31)  12 AUG 2018 22:58
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -995,53 +995,32 @@ Package pdftex.def Info: dennisritchie.jpg used on input line 89.
 
 ] [18
 
-] (../Code/HelloWorld/hello.c
-LaTeX Font Info:    Try loading font information for OML+cmss on input line 1.
-LaTeX Font Info:    No file OMLcmss.fd. on input line 1.
-
-
-LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
-(Font)              using `OML/cmm/m/it' instead
-(Font)              for symbol `textless' on input line 1.
-
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 3.
-LaTeX Font Info:    No file OMScmss.fd. on input line 3.
-
-LaTeX Font Warning: Font shape `OMS/cmss/m/it' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textasteriskcentered' on input line 3.
-
-
-LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textasteriskcentered' on input line 6.
-
-) [19
+] (../Code/HelloWorld/hello.c) [19
 
 ] [20
 
-] (../Code/BasicVariables/variables.c) [21
+]
+(../Code/BasicVariables/variables.c) [21
+
+] (../Code/Conditionals/if.c) [22
 
 ]
-(../Code/Conditionals/if.c) [22
+(../Code/While/while.c) [23
 
-] (../Code/While/while.c) [23
-
-]
-(../Code/For/for.c) [24
-
-] (../Code/Functions/functions.c) [25
+] (../Code/For/for.c) [24
 
 ]
-(../Code/Pointers/pointers.c) [26
+(../Code/Functions/functions.c) [25
 
-] (../Code/Arrays/arrays.c) [27
+] (../Code/Pointers/pointers.c) [26
 
 ]
-(../Code/PassingArrays/passingArrays.c) [28
+(../Code/Arrays/arrays.c) [27
 
-] (../Code/Strings/strings.c)
-[29
+] (../Code/PassingArrays/passingArrays.c) [28
+
+]
+(../Code/Strings/strings.c) [29
 
 ] (../Code/Structs/structs.c) [30
 
@@ -1049,7 +1028,8 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 
 ] [32
 
-] [33
+]
+[33
 
 ] [34
 
@@ -1077,31 +1057,26 @@ Package rerunfilecheck Info: File `slides.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
  ) 
 Here is how much of TeX's memory you used:
- 19597 strings out of 494902
- 365555 string characters out of 6179891
- 512656 words of memory out of 5000000
- 22354 multiletter control sequences out of 15000+600000
- 14124 words of font info for 54 fonts, out of 8000000 for 9000
+ 19580 strings out of 494902
+ 365337 string characters out of 6179891
+ 512658 words of memory out of 5000000
+ 22340 multiletter control sequences out of 15000+600000
+ 14292 words of font info for 55 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 48i,16n,57p,772b,1338s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/symbols/msam7.pfb>
-Output written on slides.pdf (35 pages, 208767 bytes).
+ 48i,16n,57p,772b,1153s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/symbols/msam7.pfb>
+Output written on slides.pdf (35 pages, 193354 bytes).
 PDF statistics:
- 1025 PDF objects out of 1200 (max. 8388607)
- 959 compressed objects within 10 object streams
+ 1017 PDF objects out of 1200 (max. 8388607)
+ 953 compressed objects within 10 object streams
  75 named destinations out of 1000 (max. 500000)
  75 words of extra memory for PDF output out of 10000 (max. 10000000)
 
