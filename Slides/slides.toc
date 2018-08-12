@@ -1,2 +1,2 @@
 \beamer@sectionintoc {1}{Overview of the Language}{2}{0}{1}
-\beamer@sectionintoc {2}{Technical Details}{18}{0}{2}
+\beamer@sectionintoc {2}{Technical Details}{19}{0}{2}
