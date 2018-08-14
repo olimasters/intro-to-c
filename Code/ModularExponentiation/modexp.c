@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// Zeroes all bits except the most significant bit
 unsigned long msb(unsigned long num)
 {
     if(num == 0)
@@ -14,6 +15,8 @@ unsigned long powMod(unsigned long base, unsigned long exponent, unsigned long m
     unsigned long exponentmsb = msb(exponent);
     unsigned long powers = base;
     unsigned long result = 1;
+
+    // Standard mathematical trick using the binary representation of exponent
     for(unsigned long mask = 1; !((mask >> 1) & exponentmsb); mask <<= 1)
     {
         if(exponent & mask)
@@ -32,6 +35,5 @@ int main(int argc, char *argv[])
         sscanf(lineBuffer, "%lu %lu %lu", &base, &exponent, &mod);
         printf("%lu\n", powMod(base, exponent, mod));
     }
-    //printf("%lu\n",powMod(100924, 36591673, 12309134));
     return 0;
 }

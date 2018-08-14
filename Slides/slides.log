@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.7.31)  12 AUG 2018 22:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.7.31)  14 AUG 2018 22:27
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1000,7 +1000,7 @@ Package pdftex.def Info: dennisritchie.jpg used on input line 89.
 ] [20
 
 ]
-(../Code/BasicVariables/variables.c) [21
+(../Code/Variables/variables.c) [21
 
 ] (../Code/Conditionals/if.c) [22
 
@@ -1060,7 +1060,7 @@ LaTeX Font Warning: Size substitutions with differences
  ) 
 Here is how much of TeX's memory you used:
  19580 strings out of 494902
- 365337 string characters out of 6179891
+ 365322 string characters out of 6179891
  512658 words of memory out of 5000000
  22340 multiletter control sequences out of 15000+600000
  14292 words of font info for 55 fonts, out of 8000000 for 9000
